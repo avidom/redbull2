@@ -836,17 +836,14 @@ if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 		  .from(r.t3.cta.t1, 0.2, {scaleX:0.0, scaleY:0.0, ease:Power0.easeNone}, time4+0.6)
 		  .from(r.t3.cta.sh, 0.2, {scaleX:0.0, scaleY:0.0, ease:Power0.easeNone}, time4+0.6)
 		  
-		  .from(r.t3.mouse, 0.3, {x:"+=250", y:"+=250", rotation:"-=180", ease:Expo.easeOut}, time4+0.8)
-		  //.to(r.t3.cooler.mc, 0.1, {y:"-=15", ease:Power0.easeNone}, time4+3.6)
-		  //.to(r.t3.cooler.mc, 0.4, {y:"+=15", ease:Bounce.easeOut}, time4+3.8)
-		  .to(r.t3.mouse, 0.1, {scaleX:0.8, scaleY:0.8, ease:Sine.easeOut}, time4+1.1)
-		  .to(r.t3.mouse, 0.1, {scaleX:1.0, scaleY:1.0, ease:Sine.easeOut}, time4+1.2)
-		  .to(r.t3.cta, 0.1, {scaleX:0.9, scaleY:0.9, ease:Sine.easeOut}, time4+1.1)
-		  .to(r.t3.cta, 0.1, {scaleX:1.0, scaleY:1.0, ease:Sine.easeOut}, time4+1.2)
+		  .from(r.t3.mouse, 0.8, {x:"+=250", y:"+=250", rotation:"-=180", ease:Expo.easeOut}, time4+0.8)
+		  .to(r.t3.mouse, 0.1, {scaleX:0.7, scaleY:0.7, ease:Sine.easeOut}, time4+1.6)
+		  .to(r.t3.mouse, 0.1, {scaleX:1.0, scaleY:1.0, ease:Sine.easeOut}, time4+1.8)
+		  .to(r.t3.cta, 0.1, {scaleX:0.9, scaleY:0.9, ease:Sine.easeOut}, time4+1.6)
+		  .to(r.t3.cta, 0.1, {scaleX:1.0, scaleY:1.0, ease:Sine.easeOut}, time4+1.8)
 		  
+		  .to(r.t3.mouse, 0.8, {x:"+=50", y:"+=250", rotation:"-=180", ease:Expo.easeIn}, time4+1.9)
 		  
-		  
-		  .to(r.t3.mouse, 0.6, {x:"+=50", y:"+=250", rotation:"-=180", ease:Expo.easeIn}, time4+1.3)
 		  
 		  
 		  
